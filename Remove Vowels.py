@@ -11,5 +11,4 @@ def remove_vowels(string1):
 
 
 str_var = input("Enter the string to remove vowels: ")
-str_no_vowels = remove_vowels(str_var)
-print("String without vowels: ", str_no_vowels)
+remove_vowels(str_var)
